@@ -23,7 +23,6 @@ public abstract class GObject {
 	}
 
 	public boolean pointerHit(int pointerX, int pointerY) {
-		System.out.println(pointerX + "AND " + pointerY);
 		return pointerX <= x + width && pointerX >= x && pointerY >= y && pointerY <= y + height;
 	}
 
